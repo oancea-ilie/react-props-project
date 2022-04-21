@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default ({products})=>{
+const HeaderLeft = ({products})=>{
 
     let totalProd = products.length;
     
@@ -18,3 +18,5 @@ export default ({products})=>{
         </div>
     )
 }
+
+export default HeaderLeft;
